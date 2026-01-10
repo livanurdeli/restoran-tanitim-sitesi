@@ -1,0 +1,40 @@
+@media ( max-width : 991px ){
+    body{
+        display: none;
+    }
+    html{
+        font-size: 55%;
+    }
+.header{
+    padding: 1.5rem 2rem;
+}
+.header .logo img{
+    height: 7rem;
+}
+section{
+    padding: 2rem;
+}
+.products .box-container .box .box-head .name{
+    font-size: 3.4rem;
+}
+}
+@media ( max-width : 768px ){
+#menu-btn{
+    display: inline-block;
+}
+.header .navbar{
+    position: absolute;
+    top: 95%;
+    background-color: #fff;
+    height: calc(100vh-9rem);
+    width: 30rem;
+    box-shadow: 0px 20px 14px 0px rgba(0, 0, 0, 75%);
+}
+.header .navbar a{
+    color: black;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+}

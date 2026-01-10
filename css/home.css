@@ -1,0 +1,52 @@
+
+.home{ 
+    height: 100vh;
+    background-image: url(../img/pexels-igor-ovsyannykov-56123-205961.jpg);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    margin-top: -14.5rem;
+}
+.content{
+   
+   max-width: 60rem ;
+   
+}
+.content h3{
+    margin-top: 8rem;
+    font-size: 6rem;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+}
+.content p{
+   
+    font-family: "Poppins", system-ui;
+    font-weight: 300;
+    font-style: italic;
+    color: #ccc;
+}
+.content a{
+    transition: 0.5s;
+    background-color: var(--main-color);
+    background-color: hsla(30, 80%, 83%, 0.4);
+    color:black;
+
+}
+.content a:hover{
+    
+    color: white;
+}
+@media (max-width: 768px){
+    .home{
+        height: 100%;
+        width: 100%;
+    }
+    .content h3{
+        font-size: 2rem;
+    }
+    .content p{
+        font-weight: 100;
+    }
+}

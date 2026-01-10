@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livs Cafe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="img/chef.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="index.html"> Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Review</a>
+            <a href="contact.html" class="active">contact</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button id="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form ">
+            <input type="text" class="search-input" id="search-box" placeholder="search here">
+        </div>
+
+        <div class="cart-items-container ">
+            <div class="cart-item">
+
+                <i class="fa-solid fa-xmark"></i>
+                <img src="img/pexels-cottonbro-4686962.jpg" alt="">
+                <div class="content">
+                    <h4>cart item 01</h4>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+
+                <i class="fa-solid fa-xmark"></i>
+                <img src="img/pexels-suzyhazelwood-1098592.jpg" alt="">
+                <div class="content">
+                    <h4>cart item 02</h4>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+
+                <i class="fa-solid fa-xmark"></i>
+                <img src="img/pexels-alesiakozik-6072100.jpg" alt="">
+                <div class="content">
+                    <h4>cart item 03</h4>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn"> chechout now</a>
+        </div>
+    </header>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"> contact <span>us</span></h1>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059
+                .5578334562933!2d32.85151888745095!3d39.92891028656022!2m3!1f0!2f0!3f0!
+                3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d34ef880bb5299%3A0x9dcc9b3503ffb4
+                92!2sEti%2C%20Celal%20Bayar%20Blv.%2C%2006570%20%C3%87ankaya%2FAnkara!
+                5e0!3m2!1str!2str!4v1724678144333!5m2!1str!2str" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3> get in touch</h3>
+                <div class="inputbox">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="name">
+
+                </div>
+                <div class="inputbox">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="email">
+
+                </div>
+                <div class="inputbox">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="number" placeholder="number">
+
+                </div>
+                <input type="submit" class="btn" value="contact now">
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="share">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="credit">
+            <h1>created by <span>Livanur Deli</span> | all rights reserved</h1>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

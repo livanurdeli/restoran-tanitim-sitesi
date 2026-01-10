@@ -1,0 +1,38 @@
+.footer{
+    background-color: black;
+    text-align: center;
+   padding: 0.5rem 0;
+  
+}
+.footer .share{
+padding: 1rem 0;
+}
+.footer .share a i{
+   
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    color: gray;
+    font-size: 2rem;
+    border: 0.2rem solid gray;
+    border-radius: 50%;
+    margin: 0.2rem;
+    transition: 0.3;
+
+}
+.footer .share i:hover{
+   color:#ccc;
+   border-color: #ccc;
+}
+
+.footer .credit {
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 200;
+    padding-bottom: 1.5rem; 
+    font-family: "Poppins", system-ui;   
+    font-style: italic;
+}
+.credit span{
+    color: #ccc;
+}

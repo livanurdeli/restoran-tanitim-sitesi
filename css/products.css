@@ -1,0 +1,97 @@
+
+
+.products .box-container{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.5rem;
+
+}
+.products .box-container .box{
+    flex: 4;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3rem;
+    height: 52rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.products .box-container .box .box-head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 10;
+}
+.products .box .name{
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: start;
+    overflow-wrap: anywhere;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+.products .box-container img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 3rem;
+    height: 52rem;
+
+}
+
+
+.products .box-container .box-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.products .box-container .box-bottom .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.products .box-container .box-bottom .info .price{
+    font-size: 4rem;
+    color: var(--black-color);
+}
+.products .box-container .box-bottom .info .amount{
+    font-size: 1.4rem;
+    color: var(--black-color);
+    font-family: "Poppins", system-ui;
+    font-style: italic;
+}
+.products .box-container .box-bottom .product-btn a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 0.5rem solid black;
+}
+.products .box-container .box-bottom .product-btn a i{
+    font-size: 2.5rem;
+    color: black;
+}
+
+.products .box-container .box-bottom .product-btn a i{
+    transition: all 0.3s;
+}
+
+.products .box-container .box-bottom .product-btn a i:hover{
+color: #fff;
+border-color: #fff
+}
+@media (max-width: 768px){
+    .products{
+        height: 100%;
+        width: 100%;
+    }
+}

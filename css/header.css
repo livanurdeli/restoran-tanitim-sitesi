@@ -1,0 +1,135 @@
+
+
+.logo img{
+    height: 5rem;
+    width: 5rem;
+    margin: 0.5rem 0;
+    
+   
+}
+.header{
+    background-color:rgba(227, 227, 227, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 7%;
+    margin: 3% 10% ;
+    border-radius: 30rem;
+    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.75);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+.navbar a{
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    color: var(--black-color);
+    border-bottom: 0.1rem solid transparent;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ 
+}
+.navbar .active , .navbar a:hover{
+    border-color: var(--main-color);
+
+    padding-bottom: 0.5rem;
+    font-size: 170%;
+}
+.buttons button {
+    cursor: pointer;
+    font-size: 2.5rem;
+   margin: 0 0.5rem;
+    background: none;
+
+
+}
+#menu-btn{
+    display: none;
+}
+.header .search-form{
+  position: absolute;
+    background-color:rgba(255, 255, 255, 0.75);
+    bottom: 1.5rem;
+    right: 18rem;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 25px 2px rgba(0, 0,0, 75%);
+
+
+}
+.header .search-form input{
+    width: 100%;
+    border-radius: 2rem;
+    background-color:rgba(255, 255, 255, 0.75);
+    color: gray;
+    
+}
+
+.header .cart-items-container{
+    position: absolute;
+    top: 95%;
+    height: calc(100vh - 9rem);
+    width: 35rem;
+    background-color:rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 20px 14px 0px rgba(0, 0, 0, 0.75);
+    right: -100%;
+    border-radius: 1rem;
+
+}
+.header .cart-items-container.active{
+    right: 3rem;
+}
+.header .cart-items-container .cart-item{
+    max-height: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    right: 5rem;
+    
+}
+
+.header .cart-items-container .cart-item i{
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+    left: 37rem;
+
+}
+.header .cart-items-container .cart-item img{ 
+height: 9rem;
+max-width:  25rem;
+padding: 0 5rem;
+}
+.header .cart-items-container .cart-item h4{
+    color: black;
+}
+.header .cart-items-container a{
+   width: 100%;
+   text-align: center;
+   border-radius: unset;
+    }
+    @media (max-width: 768px){
+        .header{
+            height: 100%;
+            width: 100%;
+        }
+        #menu-btn{
+            display: flex;
+        }
+        .header .cart-items-container{
+            opacity: 0;
+        }
+        .header .cart-items-container:active{
+            opacity: 1;
+        }
+    }
