@@ -1,4 +1,4 @@
-# 🌐 Restoran & Ürün Tanıtım Sitesi
+# 🌐 bicycle-rental-system
 
 Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş, responsive (mobil uyumlu) tasarıma sahip bir web sitesi arayüzüdür. Bir restoran veya ürün satış sitesi için gerekli olan menü, ürünler ve iletişim sayfalarını içerir.
 
